@@ -1,0 +1,75 @@
+/*
+Custom Css
+*/
+/* Customize the modal title */
+/* Customize the primary color (highlight color) */
+.btn-primary {
+  background-color: #b429bd;
+  border-color: #b429bd;
+  color: #fff;
+}
+
+/* Customize the "Search" button */
+.btn-custom {
+  background-color: #b429bd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+/* Style the search input fields */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #b429bd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Add a hover effect for input fields */
+input[type="text"]:hover,
+input[type="number"]:hover,
+select:hover {
+  border-color: #7930a0; /* A slightly darker shade of the main color on hover */
+}
+
+/* Style the labels */
+label {
+  display: block; /* To ensure each label appears on a new line */
+  font-weight: bold;
+  color: #333; /* A neutral text color */
+}
+
+/* Style the "Search" button */
+.btn-custom {
+  background-color: #b429bd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* Add padding to the modal body for spacing */
+.modal-body {
+  padding: 20px;
+}
+
+.service-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.message {
+  display: none;
+}
+
+.service-card.active .message {
+  display: block;
+}
